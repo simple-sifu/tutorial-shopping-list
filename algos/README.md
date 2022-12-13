@@ -1,9 +1,13 @@
 # Algorithms
 
 # [Stack](https://www.youtube.com/watch?v=Gj5qBheGOEo&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=1)
-1.
-2.
-3.
+1. functions: push, pop, peek, length.
+2. storage - global variable
+3. count - global variable
+4. push - ?
+5. pop - ?
+6. peek - ?
+i.e. palindrome with arrays
 
 
 # [Queue](https://www.youtube.com/watch?v=bK7I79hcm08&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=3)
