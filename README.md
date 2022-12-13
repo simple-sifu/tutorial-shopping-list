@@ -17,6 +17,7 @@
 - document.createElement('li');
 - ul.appendChild(li);
 - document.createTextNode(inputValue)
+- div.classList.add("anotherclass");
 
 # 3. Creating event listeners
 
