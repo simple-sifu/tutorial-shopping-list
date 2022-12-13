@@ -28,3 +28,18 @@
 
 <img width="373" alt="Screen Shot 2022-12-13 at 2 47 05 PM" src="https://user-images.githubusercontent.com/36891099/207430273-75c1e662-116a-468e-a207-ae2704fe08d4.png">
 
+
+
+# Algorithms
+
+[Stack](https://www.youtube.com/watch?v=Gj5qBheGOEo&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=1)
+
+[Queue](https://www.youtube.com/watch?v=bK7I79hcm08&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=3)
+
+[Linked List](https://www.youtube.com/watch?v=9YddVVsdG5A&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=8)
+
+[Hash Table](https://www.youtube.com/watch?v=F95z5Wxd9ks&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=7)
+
+[Binary Search Tree](https://www.youtube.com/watch?v=5cU1ILGy6dM&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=4)
+
+[Binary Tree Height and Traversal](https://www.youtube.com/watch?v=Aagf3RyK3Lw&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ&index=5) 
