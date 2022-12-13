@@ -20,5 +20,5 @@
 
 # 3. Creating event listeners
 
-> const buttonElement = document.getElementById("addItem"); 
-> buttonElement.addEventListener("click", addItem);
+- const buttonElement = document.getElementById("addItem"); 
+- buttonElement.addEventListener("click", addItem);
