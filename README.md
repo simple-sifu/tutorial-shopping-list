@@ -1,9 +1,9 @@
 # tutorial-shopping-list
 
 
-1.) Find out all the information you can about the new idea
-2.) Build it.
-3.) Teach it.
+1. Find out all the information you can about the new idea
+2. Build it.
+3. Teach it.
 
 
 # 1. Different ways to search DOM
