@@ -1,7 +1,9 @@
-const buttonElement = document.querySelector(".addItem").value; 
+const buttonElement = document.getElementById("addItem"); 
 buttonElement.addEventListener("click", addItem);
+console.log("loading script.js");
 
 function addItem() {
+    console.log("addItem");
     const inputValue = document.querySelector("input").value; 
     if (inputValue === ""){
         return;
