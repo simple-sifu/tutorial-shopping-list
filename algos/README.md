@@ -7,6 +7,7 @@
 4. push - ?
 5. pop - ?
 6. peek - ?
+7. test works ?
 i.e. palindrome with arrays
 
 
