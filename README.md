@@ -2,7 +2,7 @@
 
 
 1. Find out all the information you can about the new idea
-2. Build it.
+2. [Build it.](https://simple-sifu.github.io/tutorial-shopping-list/) 
 3. Teach it.
 
 
