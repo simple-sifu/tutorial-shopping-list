@@ -1,0 +1,31 @@
+navbar {
+    display: flex;
+    align-items: center;
+    background-color: #7834fc;
+  
+}
+
+ul {
+    list-style: none;
+}
+
+.menus {
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 0 1em;
+    color: white;
+}
+
+.fa-bootstrap {
+    color: yellow;
+}
