@@ -80,13 +80,12 @@ svg {
   @media only screen and (min-width: 1024px) {
     .content1 {
       display: grid;
-      grid-template-columns: 34% 6% 40% 30%;
+      grid-template-columns: 31% 9% 40% 30%;
       grid-template-areas: "one two three four";
     }
 
     .content1a {
       grid-area: two;
-      justify-self: end;
       margin-top: 10px;
     }
     .content1b {
