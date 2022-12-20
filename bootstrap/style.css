@@ -1,24 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+
 navbar {
     display: flex;
-    align-items: center;
     background-color: #7834fc;
-  
+    font-size: 1.2em;
 }
 
+
 ul {
+    display: flex;
     list-style: none;
 }
 
-.menus {
-    margin: 0 1em;
-    display: flex;
-    align-items: center;
+.leftSide {
     margin-right: auto;
-}
-
-.icons {
-    display: flex;
-    align-items: center;
+    padding: 0px;
 }
 
 li {
@@ -26,6 +24,106 @@ li {
     color: white;
 }
 
-.fa-bootstrap {
-    color: yellow;
+.otherLi {
+  padding-top: 5px;
 }
+
+svg {
+    animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .container {
+    background-image: linear-gradient(#c0d5ff, #fef9e5);
+  }
+
+  .content1a {
+    display: flex;
+    font-weight: bold;
+    background-color: #ffe484;
+    box-shadow: inset 0 -1px 1px rgba(var(--bs-body-color-rgb), 0.15),0 0.25rem 1.5rem rgba(var(--bs-body-bg-rgb), 0.75);
+    width: 100px; 
+    border-radius: 3px;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .content1b {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 200;
+    color: #6c757d;
+  }
+
+  @media only screen and (min-width: 200px) {
+    .content1 {
+      flex-direction: column;
+    }
+    .content1a {
+      margin: 40px auto;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .content1 {
+      display: grid;
+      grid-template-columns: 30% 10% 40% 30%;
+      grid-template-areas: "one two three four";
+    }
+
+    .content1a {
+      grid-area: two;
+      justify-self: end;
+    }
+    .content1b {
+      grid-area: three;
+      justify-self: start;
+    }
+  } 
+
+  .content2Logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    height: 180px;
+    width: 200px;
+
+  }
+
+  .content3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+
+
+
+    @media only screen and (min-width: 1200px) {
+      margin: 0px 212px;
+      font-size: 4em;
+      padding: 24px;
+    }
+  }
+
+  .content4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    width: auto;
+    margin: 5px auto;
+  }
+
+
