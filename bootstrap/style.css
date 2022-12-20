@@ -69,7 +69,10 @@ svg {
       flex-direction: column;
     }
     .content1a {
-      margin: 40px auto;
+      margin: 0px auto;
+    }
+    .content1b {
+      margin-top: 20px;
     }
 
   }
@@ -77,13 +80,14 @@ svg {
   @media only screen and (min-width: 1024px) {
     .content1 {
       display: grid;
-      grid-template-columns: 30% 10% 40% 30%;
+      grid-template-columns: 34% 6% 40% 30%;
       grid-template-areas: "one two three four";
     }
 
     .content1a {
       grid-area: two;
       justify-self: end;
+      margin-top: 10px;
     }
     .content1b {
       grid-area: three;
@@ -102,28 +106,38 @@ svg {
 
   }
 
+  .bottomContent3 {
+    display: grid;
+    grid-template-columns: [leftCol1] 20% [middleCol1] 60% [rightCol1] 20%;
+    /* grid-template-rows: [left-start] 200px [main] 200px [right-start] 200px; */
+    grid-template-areas: 
+      "leftCol1 middleCol1 rightCol1"
+      "leftCol1 middleCol1 rightCol1";
+    
+  }
+
   .content3 {
-    display: flex;
-    justify-content: center;
+    grid-area: middleCol1;
     text-align: center;
     font-size: 4em;
+  }
 
-
-
-    @media only screen and (min-width: 1200px) {
-      margin: 0px 212px;
-      font-size: 4em;
-      padding: 24px;
-    }
+  .bottomContent4 {
+    display: grid;
+    grid-template-columns: [leftCol1] 15% [middleCol1] 70% [rightCol1] 15%;
+    /* grid-template-rows: [left-start] 200px [main] 200px [right-start] 200px; */
+    grid-template-areas: 
+      "leftCol1 middleCol1 rightCol1"
+      "leftCol1 middleCol1 rightCol1";
+    
   }
 
   .content4 {
-    display: flex;
-    justify-content: center;
+    margin-top: 20px;
+    grid-area: middleCol1;
     text-align: center;
-
-    width: auto;
-    margin: 5px auto;
+    font-size: 2em;
+    color: #51575f;
   }
 
 
