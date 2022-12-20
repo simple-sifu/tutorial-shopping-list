@@ -49,17 +49,16 @@ svg {
     display: flex;
     font-weight: bold;
     background-color: #ffe484;
-    box-shadow: inset 0 -1px 1px rgba(var(--bs-body-color-rgb), 0.15),0 0.25rem 1.5rem rgba(var(--bs-body-bg-rgb), 0.75);
-    width: 100px; 
-    border-radius: 3px;
-    margin-top: 50px;
-    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100px;
+    height: 40px; 
+    border-radius: 5px;
+    padding: 10px 10px;
   }
 
   .content1b {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     font-weight: 200;
     color: #6c757d;
   }
@@ -73,6 +72,7 @@ svg {
     }
     .content1b {
       margin-top: 20px;
+      margin-bottom: 20px;
     }
 
   }
@@ -108,7 +108,6 @@ svg {
   .bottomContent3 {
     display: grid;
     grid-template-columns: [leftCol1] 20% [middleCol1] 60% [rightCol1] 20%;
-    /* grid-template-rows: [left-start] 200px [main] 200px [right-start] 200px; */
     grid-template-areas: 
       "leftCol1 middleCol1 rightCol1"
       "leftCol1 middleCol1 rightCol1";
@@ -118,13 +117,12 @@ svg {
   .content3 {
     grid-area: middleCol1;
     text-align: center;
-    font-size: 4em;
+    font-size: calc(1.525rem + 3.3vw);
   }
 
   .bottomContent4 {
     display: grid;
-    grid-template-columns: [leftCol1] 15% [middleCol1] 70% [rightCol1] 15%;
-    /* grid-template-rows: [left-start] 200px [main] 200px [right-start] 200px; */
+    grid-template-columns: [leftCol1] 20% [middleCol1] 60% [rightCol1] 20%;
     grid-template-areas: 
       "leftCol1 middleCol1 rightCol1"
       "leftCol1 middleCol1 rightCol1";
@@ -135,8 +133,13 @@ svg {
     margin-top: 20px;
     grid-area: middleCol1;
     text-align: center;
-    font-size: 2em;
+    font-size: calc(1.275rem + .3vw);
     color: #51575f;
   }
 
+  @media (min-width: 768px) and (min-width: 1200px){
+    .content4 {
+      font-size: 1.5rem;
+    }
+  }
 
