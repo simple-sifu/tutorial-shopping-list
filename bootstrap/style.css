@@ -6,6 +6,10 @@ navbar {
     display: flex;
     background-color: #7834fc;
     font-size: 1.2em;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 
@@ -32,6 +36,8 @@ svg {
     animation: App-logo-spin infinite 20s linear;
 }
 
+
+
 @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -39,6 +45,12 @@ svg {
     to {
       transform: rotate(360deg);
     }
+  }
+
+  #layout {
+    display: grid;
+    grid-template-rows: 3em 30px 3em 6em 6em;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
   .container {
@@ -53,7 +65,6 @@ svg {
     width: 100px;
     height: 40px; 
     border-radius: 5px;
-    padding: 10px 10px;
   }
 
   .content1b {
@@ -71,8 +82,8 @@ svg {
       margin: 0px auto;
     }
     .content1b {
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 40px;
+      margin-bottom: 40px;
     }
 
   }
@@ -86,7 +97,7 @@ svg {
 
     .content1a {
       grid-area: two;
-      margin-top: 10px;
+      margin-top: 30px;
     }
     .content1b {
       grid-area: three;
