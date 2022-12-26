@@ -49,7 +49,7 @@ svg {
 
   #layout {
     display: grid;
-    grid-template-rows: 3em 30px 3em 6em 6em;
+    grid-template-rows: 5em 30px 3em 6em 6em;
     grid-template-columns: 1fr 2fr 1fr;
   }
 
