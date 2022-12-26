@@ -53,7 +53,7 @@ svg {
 
   navbar {
     display: grid;
-    grid-template-rows: 4.5em;
+    grid-template-rows: 4em;
     grid-template-columns: 1fr 1fr;
     grid-row-start: 1;
     grid-row-end: -1;
@@ -64,34 +64,40 @@ svg {
   .container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-row-gap: 20px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-template-rows: 20px 50px 20px 170px 20px 200px 10px 20px 20px 100px;
     background-image: linear-gradient(#c0d5ff, #fef9e5);
   }
 
   .content1 {
     display: flex;
     justify-content: center;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
   }
 
   .content1a {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
+
     background-color: #ffe484;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 100px;
     height: 40px; 
     border-radius: 5px;
-    justify-content: center;
-    align-items: center;
+    margin: 5px;
+
   }
 
   .content1b {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: 200;
     color: #6c757d;
   }
@@ -100,6 +106,43 @@ svg {
   img {
     height: 180px;
     width: 200px;
+
+  }
+
+  .content2Logo {
+    display: flex;
+    justify-content: center;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .content3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(1.525rem + 3.3vw);
+
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+
+  }
+
+  .content4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(1.275rem + .3vw);
+    color: #51575f;
+
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 3;
 
   }
 
