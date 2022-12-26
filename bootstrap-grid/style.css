@@ -62,10 +62,12 @@ svg {
   }
 
   .container {
+    background-image: linear-gradient(#c0d5ff, #fef9e5);
+
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 20px 50px 20px 170px 20px 200px 10px 20px 20px 100px;
-    background-image: linear-gradient(#c0d5ff, #fef9e5);
+
   }
 
   .content1 {
@@ -98,6 +100,7 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
+
     font-weight: 200;
     color: #6c757d;
   }
@@ -106,12 +109,12 @@ svg {
   img {
     height: 180px;
     width: 200px;
-
   }
 
   .content2Logo {
     display: flex;
     justify-content: center;
+
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 2;
@@ -143,7 +146,6 @@ svg {
     grid-row-end: 10;
     grid-column-start: 2;
     grid-column-end: 3;
-
   }
 
  
